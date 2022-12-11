@@ -1,0 +1,160 @@
+@font-face {
+    font-family: 'brilliant_signature';
+    src: url("brilliant_signature/Brilliant.ttf") format('opentype');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Demo_Fonts' ;
+    src: url('Demo_Fonts/Fontspring-DEMO-theseasons-bd.otf') format("opentype");
+    font-display: swap;
+}
+
+@media screen and (min-width: 400px) {
+    .visually-hidden
+    { display: none;
+        
+    }
+}
+body {
+    background-color: #BFA6A2;
+    display: flex;
+    font-family: "Demo_Fonts", "Courier New" ;
+    
+
+}
+
+html, body {
+    height: 100%;
+  }
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+  .content {
+    flex: 1 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .footer {
+    flex-shrink: 0;
+  }
+
+.Titre-principal {
+    width: 30%;
+    margin:auto;
+    margin-top: 20px;
+    font-family:'brilliant_signature';
+    font-size: 40px;
+    color: #A91221;
+    text-align: center;
+}
+
+
+
+.sous-titre {
+    font-size: 20px;
+    text-align:center;
+}
+
+.tache-vin {
+    width: 70x;
+    height: 70px;
+    
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    margin-top: 20px;
+    width:auto
+}
+
+.contenu {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+.offcanvas {
+    background-color: #BFA6A2;
+}
+
+.offcanvas-title {
+    font-family: 'brilliant_signature';
+    color: #A91221;
+}
+
+.dropdown-menu {
+    background: radial-gradient(circle, rgba(218,69,24,1) 0%, rgba(204,16,54,1) 100%)
+}
+
+.content { background-color: #89726f;
+    margin-top: 20px;
+    
+    
+}
+
+.card {
+    justify-content: center;
+    align-items: center;
+}
+
+.card-img-top {
+    width: auto;
+    height: 150px;
+    -webkit-filter: drop-shadow(.5rem .5rem 0.75rem rgb(94, 93, 93));
+    filter: drop-shadow(.5rem .5rem 0.75rem rgb(94, 93, 93));
+}
+
+.card {
+    background-color: #bfa6a2;
+}
+.card-body {
+    background-color: #ffffff;
+}
+
+.carousel-inner > .item > img{ margin:auto; }
+
+.carousel-item__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4)),
+    url('Cave-1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.carousel-item__content img{
+    height: 100%;
+    width: auto;
+    -webkit-filter: drop-shadow(.5rem .5rem 0.75rem rgb(94, 93, 93));
+    filter: drop-shadow(.5rem .5rem 0.75rem rgb(94, 93, 93));
+}
+
+.bg-cave {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4)),
+    url('Cave-1.jpg');
+    background-size: cover;
+   
+}
+
+.product__description {
+    background-color: #bfa6a2b6;
+}
+
+.product__description .nav-tabs {
+     border: none;
+}
+
+.list-group-item {
+    background-color: unset;
+}
